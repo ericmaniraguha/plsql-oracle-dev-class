@@ -1,6 +1,6 @@
 # Employee Management Database (Using Oracle as RDBMS)
 
-This README provides an overview of the Employee Management Database, designed specifically for Oracle courses to manage and store information related to employees and organizational structure. It includes tables for countries, departments, roles, managers, employees, Allowance, and attendance records.
+This README provides an overview of the Employee Management Database, designed specifically for Oracle courses to manage and store information related to employees and organizational structure. It includes tables for Countries, Departments, Roles, Managers, Employees, Allowance, and Attendance records.
 
 ## Table Structures
 
@@ -130,11 +130,6 @@ INSERT INTO Employees (First_Name, Last_Name, Email, Phone_Number, Address, Hire
 VALUES ('Alice', 'Kanayana', 'alice@example.com', '+250788123456', 'Kigali, Rwanda', SYSDATE, 1, 1, 50000);  -- Inserting employee Alice
 ```
 
-## Insert Salaries
-
-```sql
-INSERT INTO Salaries (Employee_ID, Salary_Amount, Effective_Date) VALUES (1, 50000, SYSDATE);  -- Salary for employee Alice
-```
 ## Insert Attendance
 
 ```sql
