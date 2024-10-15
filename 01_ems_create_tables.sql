@@ -49,7 +49,6 @@ CREATE TABLE Employees (
     FOREIGN KEY (Role_ID) REFERENCES Roles(Role_ID)                 -- Establishing a relationship with the Roles table
 );
 
-
 -- Alter the Employees table to add a Bonus column
 
 ALTER TABLE Employees
